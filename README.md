@@ -12,5 +12,5 @@
 > Description if it's realy need
 
 **#3.01**
-> Commit number  
+> Commit tag  
 ---
