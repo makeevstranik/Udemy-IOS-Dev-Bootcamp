@@ -41,4 +41,4 @@ app with simple functionality - add immage, lable, buttom; change them randomly
 app with simple functionality - play sound, change button's property after delay (using async DispatchQueue)   
 
 **commit #7.78**.  
-### Xelophone ###
+### Xylophone ###
