@@ -27,11 +27,24 @@ simple app without any fuctionality - jast showing a picture and a few lables
 ---
 ### Section 5 Swift Prigramming Basics ### 
 
-**#50**
-
 [TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16252392#overview)
 app with simple functionality - add immage, lable, buttom; change them randomly    
 
 **commit #5.50**
 
 ### Magic-8-Ball ###
+
+---
+### Section 7: Using and Understanding Apple Documentation ### 
+
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16252746#overview)
+app with simple functionality - play sound, change button's property after delay (using async DispatchQueue)   
+
+**commit #7.78**.  
+### Xylophone ###
+---    
+### Section 8: Intermediate Swift Programming - Control Flow and Optionals
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16252792#overview)
+app with simple functionality - plaing sound, using ProgressBar, using Timer, change label's text after delay   
+**commit #8.81**.  
+### Egg Timer ###
