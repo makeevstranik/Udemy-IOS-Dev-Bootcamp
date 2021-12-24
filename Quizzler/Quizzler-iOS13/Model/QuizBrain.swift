@@ -54,8 +54,8 @@ struct QuizBrain {
         }
     }
     
-    func getAnswerVariants(position: Int) -> String {
-        quiz[questionNumber].a[position]
+    func getAnswerVariants() -> [String] {
+        quiz[questionNumber].a
     }
     
     mutating func updateScore(score: Int) {

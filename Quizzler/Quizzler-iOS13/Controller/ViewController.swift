@@ -52,9 +52,10 @@ class ViewController: UIViewController {
         firstButton.backgroundColor = UIColor.clear
         secondButton.backgroundColor = UIColor.clear
         
-        zeroButton.setTitle(quizBrain.getAnswerVariants(position: 0), for: .normal)
-        firstButton.setTitle(quizBrain.getAnswerVariants(position: 1), for: .normal)
-        secondButton.setTitle(quizBrain.getAnswerVariants(position: 2), for: .normal)
+        let answers = quizBrain.getAnswerVariants()
+        zeroButton.setTitle(answers[0], for: .normal)
+        firstButton.setTitle(answers[1], for: .normal)
+        secondButton.setTitle(answers[2], for: .normal)
         
         progressBar.progress = quizBrain.getProgress
     }
