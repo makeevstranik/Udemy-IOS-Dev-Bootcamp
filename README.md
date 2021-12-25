@@ -48,3 +48,9 @@ app with simple functionality - play sound, change button's property after delay
 app with simple functionality - plaing sound, using ProgressBar, using Timer, change label's text after delay   
 **commit #8.81**.  
 ### Egg Timer ###
+---     
+### Section 9: iOS App Design Patterns and Code Structuring
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16252942#overview)
+app with simple functionality - MVC, using ProgressBar, using Timer, change label's text after delay, change text on button  
+**commit #9.106**.  
+### Quizzler Multiple Choice ###
