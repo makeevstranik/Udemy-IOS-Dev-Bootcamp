@@ -54,3 +54,10 @@ app with simple functionality - plaing sound, using ProgressBar, using Timer, ch
 app with simple functionality - MVC, using ProgressBar, using Timer, change label's text after delay, change text on button  
 **commit #9.106**.  
 ### Quizzler Multiple Choice ###
+---
+### Section 10: iOS App Design Pattern Challenge
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253100#overview)
+app with simple functionality, MVC home exercise - MVC, change label's text, change text on button  
+**commit #10.109**.  
+### Destini ###
+
