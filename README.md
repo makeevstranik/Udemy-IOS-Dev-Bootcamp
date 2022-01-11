@@ -63,7 +63,7 @@ app with simple functionality, MVC home exercise - MVC, change label's text, cha
 ---
 ### Section 11: Advanced Swift Programming - Classes, Inheritance & Advanced Optionals
 [TASK](hhttps://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253370#overview)
-app with simple functionality - 2 screens, segue, preparation, MVC, sliders
+app with simple functionality - 2 screens, segue, preparation, MVC, sliders.  
 **commit #11.119**.  
-### Bmi Calculator ###
+### Bmi Calculator ###.  
 
