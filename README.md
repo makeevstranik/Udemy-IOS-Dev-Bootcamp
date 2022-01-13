@@ -65,5 +65,10 @@ app with simple functionality, MVC home exercise - MVC, change label's text, cha
 [TASK](hhttps://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253370#overview)
 app with simple functionality - 2 screens, segue, preparation, MVC, sliders.  
 **commit #11.119**.  
-### Bmi Calculator ###.  
-
+### Bmi Calculator ### 
+---    
+### Section 12: Advanced Swift Programming Challenge
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253434#overview)
+self made app  - layout practice, stepper, 2 screens, segue, preparation, MVC.   
+**commit #12.132**.   
+### Tipsy ###
