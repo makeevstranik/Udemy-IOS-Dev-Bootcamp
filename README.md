@@ -83,3 +83,8 @@ app with different tasks  - networking, async, parsing, location, textField, sf 
 
 **commit #13.142**.   
 ### Clima ###
+---
+### Section 14: Networking, JSON Parsing, APIs and Core Location
+#### Additional sources: 
+- [free api hub](https://rapidapi.com/hub)
+
