@@ -72,3 +72,14 @@ app with simple functionality - 2 screens, segue, preparation, MVC, sliders.
 self made app  - layout practice, stepper, 2 screens, segue, preparation, MVC.   
 **commit #12.132**.   
 ### Tipsy ###
+---    
+### Section 13: Networking, JSON Parsing, APIs and Core Location
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253648#overview)
+app with different tasks  - networking, async, parsing, location, textField, sf simbols  
+#### Additional sources: 
+- [free weather api](https://openweathermap.org/api)
+- [coreLocation tutorial](https://www.raywenderlich.com/5247-core-location-tutorial-for-ios-tracking-visited-locations)
+- [URLSession tutorial](https://www.raywenderlich.com/3244963-urlsession-tutorial-getting-started)
+
+**commit #13.142**.   
+### Clima ###
