@@ -84,7 +84,7 @@ app with different tasks  - networking, async, parsing, location, textField, sf 
 **commit #13.142**.   
 ### Clima ###
 ---
-### Section 14: Networking and API Challenge - Ruble Currency Checker
+### Section 14: Networking and API Challenge 
 [TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253856#overview)
 cmplitely self made app with different tasks  - picker, networking, async, parsing, sf simbols
 #### Additional sources: 
