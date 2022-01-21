@@ -84,7 +84,12 @@ app with different tasks  - networking, async, parsing, location, textField, sf 
 **commit #13.142**.   
 ### Clima ###
 ---
-### Section 14: Networking, JSON Parsing, APIs and Core Location
+### Section 14: Networking and API Challenge - Ruble Currency Checker
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16253856#overview)
+cmplitely self made app with different tasks  - picker, networking, async, parsing, sf simbols
 #### Additional sources: 
 - [free api hub](https://rapidapi.com/hub)
+- [cbr currency api](https://www.cbr-xml-daily.ru/daily_json.js)
 
+**commit #14.163**.   
+### Ruble Currency Checker ###
