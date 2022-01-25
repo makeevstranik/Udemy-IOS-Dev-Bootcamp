@@ -95,18 +95,25 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 ### Ruble Currency Checker ###
 ---
 ### Section 15: Firebase Cloud Firestore, TableViews and Cocoapod Dependencies
+
 #### Additional sources:
-##### Setup cocoapods at mac M1
+
+##### ◽ Setup cocoapods at mac M1
 - open terminal using rosetta (select Terminal and press cmd(⌘)+I and check the "Open using Rosetta" option) check `zsh:` mark in terminal
 - instal brew (>1.5GB !!!) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
 - `brew cleanup -d -v` 
 - `brew install cocoapods `
 - `pod setup --verbose`
-##### Embed cocoapod in project
-- **Attention! use ROSETTA terminal version!!!
+
+
+##### ◽ Embed cocoapod in project
+
+- **Attention!** :1: use only ROSETTA terminal version!!! :point_up:
 - open root project folder
 - `pod init` - init and create podfile
 - `open -a "TextRedactorName" Podfile`
 - uncomment and correct minimum ios version `platform :ios, '13.0'`
 - follow instructions for current library and redact podfile
 - close podfile and `pod install`
+- :point_up: further use only .xcworkspace to open project
+
