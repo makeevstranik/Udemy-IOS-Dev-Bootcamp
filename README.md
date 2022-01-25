@@ -97,6 +97,7 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 ### Section 15: Firebase Cloud Firestore, TableViews and Cocoapod Dependencies
 
 #### Additional sources:
+- [read about cocoapods](https://habr.com/ru/post/261711/)
 
 ##### ◽ Setup cocoapods at mac M1
 - open terminal using rosetta (select Terminal and press cmd(⌘)+I and check the "Open using Rosetta" option) check `zsh:` mark in terminal
@@ -108,7 +109,7 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 
 ##### ◽ Embed cocoapod in project
 
-- **Attention!** :1: use only ROSETTA terminal version!!! :point_up:
+- **Attention!** use only ROSETTA terminal version!!! :point_up:
 - open root project folder
 - `pod init` - init and create podfile
 - `open -a "TextRedactorName" Podfile`
