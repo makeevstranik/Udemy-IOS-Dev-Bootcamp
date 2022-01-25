@@ -114,6 +114,7 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 - `open -a "TextRedactorName" Podfile`
 - uncomment and correct minimum ios version `platform :ios, '13.0'`
 - follow instructions for current library and redact podfile
+- [look cocoapods guide](https://guides.cocoapods.org/using/the-podfile.html) to set library version 
 - close podfile and `pod install`
 - :point_up: further use only .xcworkspace to open project
 
