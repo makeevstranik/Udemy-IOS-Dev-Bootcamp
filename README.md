@@ -118,5 +118,5 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 - close podfile and `pod install`
 - :point_up: further use only .xcworkspace to open project
 - try build project
-- in case of mistakes or warnings check the git page of library - *pull requests -> files changed* and try to male the same changes in embeded library, check latest version in git and anstalled version, open file *git->.podspec* and compare versions
+- in case of mistakes or warnings check the git page of library - *pull requests -> files changed* and try to make the same changes in embeded library, check  the latest version in git and installed version, open file *git->.podspec* and compare versions
 
