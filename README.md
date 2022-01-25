@@ -102,3 +102,11 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 - `brew cleanup -d -v` 
 - `brew install cocoapods `
 - `pod setup --verbose`
+##### Embed cocoapod in project
+- **Attention! use ROSETTA terminal version!!!
+- open root project folder
+- `pod init` - init and create podfile
+- `open -a "TextRedactorName" Podfile`
+- uncomment and correct minimum ios version `platform :ios, '13.0'`
+- follow instructions for current library and redact podfile
+- close podfile and `pod install`
