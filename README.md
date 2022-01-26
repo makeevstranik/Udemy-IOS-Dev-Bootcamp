@@ -126,3 +126,8 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 - change class inheritance to default classes
 - in podefile remove dependency for this library `pod 'CLTypingLabel', '~> 0.4.0'`
 - `pod init` 
+
+
+##### ◽ Update Dependencies
+
+- `pod update`
