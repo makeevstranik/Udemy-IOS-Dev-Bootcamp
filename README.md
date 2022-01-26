@@ -101,7 +101,7 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 
 ##### ◽ Setup cocoapods at mac M1
 - open terminal using rosetta (select Terminal and press cmd(⌘)+I and check the "Open using Rosetta" option) check `zsh:` mark in terminal
-- instal brew (>1.5GB !!!) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
+- install brew (>1.5GB !!!) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
 - `brew cleanup -d -v` 
 - `brew install cocoapods `
 - `pod setup --verbose`
@@ -121,3 +121,8 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 - try build project
 - in case of mistakes or warnings check the git page of library - *pull requests -> files changed* and try to make the same changes in embeded library, check  the latest version in git and installed version, open file *git->.podspec* and compare versions. Then do `pod install` again
 
+##### ◽ Delete library from project
+
+- change class inheritance to default classes
+- in podefile remove dependency for this library `pod 'CLTypingLabel', '~> 0.4.0'`
+- `pod init` 
