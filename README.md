@@ -130,4 +130,6 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 
 ##### ◽ Update Dependencies
 
-- `pod update`
+- `pod update` update dep.
+- `pod update library_name` update only library_name dep.
+- `pod outdated` show outdated dep.
