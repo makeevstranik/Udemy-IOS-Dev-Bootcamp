@@ -96,7 +96,7 @@ cmplitely self made app with different tasks  - picker, networking, async, parsi
 ---
 ### Section 15: Firebase Cloud Firestore, TableViews and Cocoapod Dependencies
 [TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16813258#overview)
-complex chat app with different tasks  - using cocoapod, SPM. Firebase Firestore, Firebase Auth. Segue, TableView, NavigationView, keyboard and view interraction (IQManager lib), xib file, async typing label (selfmade - 4 ways and lib) . App and View lifeciycle.
+complex chat app with different tasks  - using cocoapod, SPM. Firebase Firestore, Firebase Auth. Segue, TableView, NavigationView, keyboard and view interraction (IQManager lib), xib file, async typing label (selfmade - 4 ways and lib) . App and View lifecycle.
 
 #### Additional sources:
 - [read about cocoapods](https://habr.com/ru/post/261711/)
