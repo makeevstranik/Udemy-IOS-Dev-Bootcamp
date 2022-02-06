@@ -145,11 +145,12 @@ SwiftUI simple app - stack, image, views, frame, shape. Export Font. Extract Vie
  
 #### Additional sources:
 - [Color: convert rgb to swif format](https://www.uicolor.io/#/hex-to-ui)
-- [Color: chose color](https://flatuicolors.com/)
+- [Color: choose color](https://flatuicolors.com/)
 - [Font: Google](https://fonts.google.com/)
 #### Attention! ☝️ XCode 13 doesn't create *info.plist*! Add Fonts and any other dep. as:  
 `Project -> Targets -> Info -> Custom iOS Target Properties`  
 `+ Fonts Provided By Applicaton` add item  
+[stackoverflow](https://stackoverflow.com/questions/67896404/where-is-info-plist-in-xcode-13-missing-not-inside-project-navigator)
 
 **commit #17.208**.
 ### MakeevCard ###
