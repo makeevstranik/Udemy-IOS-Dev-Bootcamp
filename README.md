@@ -139,7 +139,7 @@ complex chat app with different tasks  - using cocoapod, SPM. Firebase Firestore
 **commit #15.197**.   
 ### Flash Chat ###
 ---
-### Section 17: SwiftUI and Declarative Programming
+### Section 17.1: SwiftUI and Declarative Programming
 [TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16254096#overview)
 SwiftUI simple app - stack, image, views, frame, shape. Export Font. Extract View.
  
@@ -154,4 +154,11 @@ SwiftUI simple app - stack, image, views, frame, shape. Export Font. Extract Vie
 
 **commit #17.208**.
 ### MakeevCard ###
+---
+### Section 17.2: SwiftUI and Declarative Programming
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16254110#overview)
+SwiftUI simple app - @State, button.  
+
+**commit #17.211**.
+### Dicee-SwiftUI ###
 ---
