@@ -138,3 +138,19 @@ complex chat app with different tasks  - using cocoapod, SPM. Firebase Firestore
 
 **commit #15.197**.   
 ### Flash Chat ###
+---
+### Section 17: SwiftUI and Declarative Programming
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16254096#overview)
+SwiftUI simple app - stack, image, views, frame, shape. Export Font. Extract View.
+ 
+#### Additional sources:
+- [Color: convert rgb to swif format](https://www.uicolor.io/#/hex-to-ui)
+- [Color: chose color](https://flatuicolors.com/)
+- [Font: Google](https://fonts.google.com/)
+#### Attention! ☝️ XCode 13 doesn't create *info.plist*! Add Fonts and any other dep. as:  
+`Project -> Targets -> Info -> Custom iOS Target Properties`  
+`+ Fonts Provided By Applicaton` add item  
+
+**commit #17.208**.
+### MakeevCard ###
+---
