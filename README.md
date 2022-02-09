@@ -163,8 +163,16 @@ SwiftUI simple app - @State, button.
 ### Dicee-SwiftUI ###
 ---
 ### Section 17.3: SwiftUI and Declarative Programming
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16254126#overview)
+SwiftUI app - 2 screens, Observer, networking, list, UIKit connection, WebKit
+
 ⚠️ Bug: ex. 215 compilar warning <...Unable to simultaneously satisfy constraints...> connected with NavigationView.
 
 [decision stackoverflow](https://stackoverflow.com/questions/65316497/swiftui-navigationview-navigationbartitle-layoutconstraints-issue). 
 
 `.navigationViewStyle(StackNavigationViewStyle())` add right after NavigationView scope
+
+**commit #17.217**
+### NewsReader ###
+---
+
