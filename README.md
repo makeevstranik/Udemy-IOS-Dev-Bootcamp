@@ -165,6 +165,6 @@ SwiftUI simple app - @State, button.
 ### Section 17.3: SwiftUI and Declarative Programming
 ⚠️ Bug: ex. 215 compilar warning <...Unable to simultaneously satisfy constraints...> connected with NavigationView.
 
-[decision](https://stackoverflow.com/questions/65316497/swiftui-navigationview-navigationbartitle-layoutconstraints-issue). 
+[decision stackoverflow](https://stackoverflow.com/questions/65316497/swiftui-navigationview-navigationbartitle-layoutconstraints-issue). 
 
 `.navigationViewStyle(StackNavigationViewStyle())` add right after NavigationView scope
