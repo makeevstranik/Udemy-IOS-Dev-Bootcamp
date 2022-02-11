@@ -175,4 +175,8 @@ SwiftUI app - 2 screens, Observer, networking, list, UIKit connection, WebKit
 **commit #17.217**
 ### NewsReader ###
 ---
-
+### Section 19: Local Data Persistence - User Defaults, Core Data and Realm
+[TASK](https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/10929420#overview)
+app with different tasks  - networking, async, parsing, location, textField, sf simbols  
+#### Additional sources: 
+- [Xcode Intellisense - stackoverflow](https://stackoverflow.com/questions/6662395/xcode-intellisense-meaning-of-letters-in-colored-boxes-like-f-t-c-m-p-c-k-etc)
