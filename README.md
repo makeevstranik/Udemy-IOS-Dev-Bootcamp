@@ -182,7 +182,12 @@ app with different tasks  - networking, async, parsing, location, textField, sf 
 - [Xcode Intellisense - stackoverflow](https://stackoverflow.com/questions/6662395/xcode-intellisense-meaning-of-letters-in-colored-boxes-like-f-t-c-m-p-c-k-etc)
 
 #### Tree Ways To Save App Data
-1. *Defaults* - only for simple defaults data (volume, state pointer etc.) doesn't support listed objects
+1. *Defaults* 
+- only for simple state defaults data (volume, state pointer etc.). 
+- Only one .plist!
+- Never use it for mutating state during app work.
+- Use only for sate initialasing. 
+- Only base types.
 ``` swift
 let defaults = UserDefaults.standard
 var itemArray = ["a", "b"] // app data
@@ -191,4 +196,41 @@ itemArray.append("c") // change data in app
 defaults.set(itemArray, forKey: "ItemArray") // set defaults data
 ```
 
-2. PropertyList 
+2. *User Property Lists* 
+- For sipmle and light data
+- One definite list for one object
+```swift
+// class scope:
+let encoder = PropertyListEncoder() // saving data must apply Codable
+let decoder = PropertyListDecoder()
+ // get path to new .plist
+    let dataFilePath = FileManager
+        .default
+        .urls(for: .documentDirectory, in: .userDomainMask)
+        .first?
+        .appendingPathComponent("Items.plist")
+// ......view data ...........
+loadData()
+//............................
+// ......mutating data .......
+saveData()
+//............................
+func saveData() {
+        do {
+            let data = try encoder.encode(itemArray)
+            try data.write(to: dataFilePath!)
+        } catch {
+            print("Error encoding \(error)")
+        }
+    }
+func loadData() {
+        if let data = try? Data(contentsOf: dataFilePath!) {
+            do {
+                itemArray = try decoder.decode([Item].self, from: data)
+            } catch {
+                print("Error dencoding \(error)")
+            }
+        }       
+    }
+```
+3. 
