@@ -180,3 +180,15 @@ SwiftUI app - 2 screens, Observer, networking, list, UIKit connection, WebKit
 app with different tasks  - networking, async, parsing, location, textField, sf simbols  
 #### Additional sources: 
 - [Xcode Intellisense - stackoverflow](https://stackoverflow.com/questions/6662395/xcode-intellisense-meaning-of-letters-in-colored-boxes-like-f-t-c-m-p-c-k-etc)
+
+#### Tree Ways To Save App Data
+1. *Defaults* - only for simple defaults data (volume, state pointer etc.) doesn't support listed objects
+``` swift
+let defaults = UserDefaults.standard
+var itemArray = ["a", "b"] // app data
+let items = defaults.array(forKey: "ItemArray") // download data from plist
+itemArray.append("c") // change data in app
+defaults.set(itemArray, forKey: "ItemArray") // set defaults data
+```
+
+2. PropertyList 
