@@ -233,4 +233,5 @@ func loadData() {
         }       
     }
 ```
-3. 
+3. Core Data
+[db browser](https://github.com/sqlitebrowser/sqlitebrowser)
