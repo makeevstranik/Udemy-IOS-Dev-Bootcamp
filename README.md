@@ -235,5 +235,5 @@ func loadData() {
 ```
 3. Core Data
 
-[db browser](https://github.com/sqlitebrowser/sqlitebrowser)
-[db query cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/)
+- [db browser](https://github.com/sqlitebrowser/sqlitebrowser). 
+- [db query cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/). 
